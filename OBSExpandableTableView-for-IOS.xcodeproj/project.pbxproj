@@ -55,6 +55,9 @@
 		15581280251B20FE005BEFA4 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1558127E251B20FE005BEFA4 /* Constant.swift */; };
 		15581285251B22E1005BEFA4 /* ContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15581284251B22E1005BEFA4 /* ContentTableViewCell.swift */; };
 		15581289251B5346005BEFA4 /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15581288251B5346005BEFA4 /* HeaderTableViewCell.swift */; };
+		CCF28A25251BADC7007300C9 /* screenshot-2.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF28A23251BADC6007300C9 /* screenshot-2.png */; };
+		CCF28A26251BADC7007300C9 /* screenshot-1.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF28A24251BADC7007300C9 /* screenshot-1.png */; };
+		CCF28A28251BADCD007300C9 /* OBSExpandableTableView.gif in Resources */ = {isa = PBXBuildFile; fileRef = CCF28A27251BADCD007300C9 /* OBSExpandableTableView.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,6 +133,9 @@
 		1558127E251B20FE005BEFA4 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		15581284251B22E1005BEFA4 /* ContentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTableViewCell.swift; sourceTree = "<group>"; };
 		15581288251B5346005BEFA4 /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
+		CCF28A23251BADC6007300C9 /* screenshot-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot-2.png"; sourceTree = "<group>"; };
+		CCF28A24251BADC7007300C9 /* screenshot-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot-1.png"; sourceTree = "<group>"; };
+		CCF28A27251BADCD007300C9 /* OBSExpandableTableView.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = OBSExpandableTableView.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +186,7 @@
 		155811F2251B2021005BEFA4 /* OBSExpandableTableView-for-IOS */ = {
 			isa = PBXGroup;
 			children = (
+				CCF28A22251BAD94007300C9 /* Screenshots */,
 				1558127D251B20E0005BEFA4 /* Constant */,
 				15581225251B2071005BEFA4 /* Lib */,
 				15581224251B2066005BEFA4 /* Controller */,
@@ -322,6 +329,16 @@
 			path = TableDataModel;
 			sourceTree = "<group>";
 		};
+		CCF28A22251BAD94007300C9 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				CCF28A24251BADC7007300C9 /* screenshot-1.png */,
+				CCF28A23251BADC6007300C9 /* screenshot-2.png */,
+				CCF28A27251BADCD007300C9 /* OBSExpandableTableView.gif */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -426,11 +443,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCF28A25251BADC7007300C9 /* screenshot-2.png in Resources */,
+				CCF28A28251BADCD007300C9 /* OBSExpandableTableView.gif in Resources */,
 				15581276251B20B6005BEFA4 /* HeaderTableViewCell.xib in Resources */,
 				15581200251B2025005BEFA4 /* LaunchScreen.storyboard in Resources */,
 				155811FD251B2025005BEFA4 /* Assets.xcassets in Resources */,
 				155811FB251B2021005BEFA4 /* Main.storyboard in Resources */,
 				15581279251B20B6005BEFA4 /* ContentTableViewCell.xib in Resources */,
+				CCF28A26251BADC7007300C9 /* screenshot-1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -671,7 +691,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "OBSExpandableTableView-for-IOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -691,7 +711,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "OBSExpandableTableView-for-IOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
