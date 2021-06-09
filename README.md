@@ -1,6 +1,6 @@
 # OBSExpandableTableView-iOS
 
-Table view with expandable cell.
+Table view with expandable cell
 
 # Screenshots
 
